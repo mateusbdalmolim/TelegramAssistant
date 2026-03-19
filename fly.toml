@@ -1,5 +1,5 @@
 # Nome da aplicação (você pode alterar depois)
-app = "seu-nome-de-app-telegram"
+app = "telegramassistant"
 primary_region = "gru" # São Paulo (mais rápido para o Brasil)
 
 [build]
