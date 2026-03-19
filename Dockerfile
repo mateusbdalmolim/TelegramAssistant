@@ -18,3 +18,7 @@ EXPOSE 8080
 
 # Comando para rodar a aplicação
 CMD ["python", "main.py"]
+
+se eu fizer essa alteração aqui e salvar
+
+aparece aqui do lado os arquivos que eu mexi
