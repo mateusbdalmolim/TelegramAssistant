@@ -1,0 +1,22 @@
+# Nome da aplicação (você pode alterar depois)
+app = "seu-nome-de-app-telegram"
+primary_region = "gru" # São Paulo (mais rápido para o Brasil)
+
+[build]
+  dockerfile = "Dockerfile"
+
+[env]
+  # Variáveis não sensíveis podem ir aqui
+  PYTHONUNBUFFERED = "1"
+
+[http_service]
+  internal_port = 8080
+  force_https = true
+  auto_stop_machines = false # Garante que o bot não desligue sozinho
+  auto_start_machines = true
+  min_machines_running = 1 # Sempre um rodando para o polling
+
+[[vm]]
+  memory = "512mb"
+  cpu_kind = "shared"
+  cpus = 1

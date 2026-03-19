@@ -1,0 +1,30 @@
+# Configurações do Ambiente
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Credenciais do Google (SENSÍVEL - NUNCA ENVIAR PARA O GITHUB)
+credentials.json
+credentials.json.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Temporários
+temp_audio/
+
+# Editor/OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
